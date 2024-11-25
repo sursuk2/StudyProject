@@ -1,3 +1,4 @@
+package lesson6;
 /*
 Создайте класс Кот
 Создайте конструктор по умолчанию
@@ -8,14 +9,28 @@
 Удалите this из конструктора, переименуйте параметры
 */
 
-import lesson6.Cat;
+public class Cat {
 
-public class Test {
-    public static void main(String[] args) {
-        Cat kitty = new Cat(8, "Labrik");
-        Cat cat = new Cat("testName");
-        Cat testCat = new Cat();
+    int age;
 
-        System.out.println(cat);
+    String name;
+
+    public Cat(int age, String name) {
+            this.age = age;
+            this.name = name;
+    }
+    public Cat(String name) {
+        this.name = name;
+    }
+    public Cat() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "Kitty{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
