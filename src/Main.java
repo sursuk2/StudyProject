@@ -12,6 +12,7 @@ public class Main {
         System.out.println(dog.getAge());
 
         //2 part
-        int sumFromDog = dog.getSum(5, 9);
+        int dogSum = dog.getSum(10, 3456789);
+        System.out.println(dogSum);
     }
 }
