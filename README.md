@@ -22,3 +22,4 @@
    Реализуйте два метода в классе:
    runKelvinConverter(double baseValue)
    runFahrenheitConverter(double baseValue)
+**4. Написали класс TwoNum чтобы вернуть из метода два числа для второй задачи
